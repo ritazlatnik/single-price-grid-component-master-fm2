@@ -93,6 +93,12 @@ section h2+p {
     margin-top: 0;
 }
 
+.price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .dollar {
     font-size: 1.625rem;
     font-weight: 700;
@@ -101,6 +107,7 @@ section h2+p {
 
 .month {
     color: hsl(0, 0%, 100%, 0.5);
+    padding-left: 15px;
 }
 
 section p {
@@ -151,10 +158,10 @@ footer {
     margin-top: 6.25rem;
 }
 /******************************
-/* RESPONSIVE DESIGN - 1199px
+/* RESPONSIVE DESIGN - 1200px
 /******************************/
 
-@media (min-width: 1199px) {
+@media (min-width: 1200px) {
 
     .container {
         width: 50%;
